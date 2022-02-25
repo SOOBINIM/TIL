@@ -94,11 +94,6 @@
     - 단일기능을 작성할때나 기능을 수정할 때 하나의 파일만 다루면 되므로 직관적인 코드작성이 가능
     - action type, action생성자 함수, saga, reducer를 하나의 파일에서 관리= 리덕스 모듈
     - 각각의 액션/ 액션함수/ 리듀서를 모아둔 것을 module이라고 부른다.
-
-### 2. .ts 과 .tsx 차이점
-
-    - .tsx는 react 문법을 담아내기 위한 확장자로써 .jsx에 대응된다.
-
 ---
 
 ## 🟣 왜 쓸까?
@@ -155,7 +150,8 @@
 ---
 
     - 리덕스의 경우 자체적으로 typescript가 지원되기 때문에 따로 typescript 버전을 받을 필요 없음.
-    - Immutable, redux는 Typescript 지원이 내장되어있다.
+    - Immutable, redux는 Typescript 지원이 내장되어있다.    
+    - .ts 과 .tsx 차이점 : .tsx는 react 문법을 담아내기 위한 확장자로써 .jsx에 대응된다.
 
 ---
 
