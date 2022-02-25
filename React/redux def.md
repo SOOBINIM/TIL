@@ -133,9 +133,9 @@
     2. Store을 생성하고 createStore api를 활용하여 store을 만듬
     3. 첫번째 인자에 함수를 주게 되는데 이를 리듀서라고 함
     4. 리듀서는 두개의 인자를 받는데
-    	- state는 데이터
-    	- action 가해져야하는 행위
-    	- 리턴값은 state
+       - state는 데이터
+       - action 가해져야하는 행위
+       - 리턴값은 state
     5. 액션에 디스패치 해줘야함
     6. Strore를 import해서 store.dispatch를 통해서 타입을 지정
     7. 디스패치를 수령하는 store 쪽에서 반영하고자 하는 컴포넌트에 store.getState()로 값을 가져온다.
