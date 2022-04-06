@@ -58,19 +58,24 @@ docker build -f Dockerfile -t fun-docker .
 도커 파일을 실행해 봤는데 Docker Desktop stopped...??
 도커를 실행을 어떻게 하지?
 도커 빌드 또는 이미지를 아직 만들지 않아서 그런건가...??
+
 ![](https://images.velog.io/images/lsoob/post/666a16ea-49ea-4f2d-921c-4d6a7a98af31/image.png)
 
 ### WSL2 설치
 
 뭐든지 안되면.. 처음부터 다시 시작!!
 아래와 같이 `WSL2 installation is incomplete`
+
 무슨말이야.. 윈도인데 리눅스를 설치하라고??
+
 VM웨어로 리눅스 설치해서 리눅스 안에서 해야 하나?
+
 아니 그럼 왜 windows 버전이 왜있는거야...(무지🙏)
 
 #### 파워쉘 관리자 권한으로 실행
 
 차례대로 입력하여 설치
+
 `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
 `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
 
