@@ -10,5 +10,7 @@ const nameInput = useRef();
 // Ref 객체의 .current 값으로 DOM 에 접근
 nameInput.current.focus();
 
-// 컴포넌트 안에서 조회 및 수정 할 수 있는 변수 관리
+// useRef 안에 파라미터 값은 current 값의 기본값
+// 예를 들면 회원 추가를 할 때, 아이디 값에 해당
+userRef(값);
 ```
